@@ -20,10 +20,10 @@ plugin does **not** mean that I do not have confidence in Gutenberg and/or the c
 It shows that I **do** have confidence that the hooks the callout and Gutenberg itself provide allow
 **you** to decide who will see the callout and be able to use Gutenberg.
 
-While I've done *some* testing of this plugin, I make no guarantees that it "does the right thing* in all
-cases, nor that it's functionality will meet the needs every site admin (or agency, hosting company, etc).  It is
+While I've done *some* testing of this plugin, I make no guarantees that it "does the right thing" in all
+cases, nor that it's functionality will meet the needs of every site admin (or agency, hosting company, etc).  It is
 just a "proof of concent" to show what is possible with the hooks that are provided.  That said, I plan
-to use it several sites I manage once WordPress 4.9.8 is released.
+to use it on several sites I manage once WordPress 4.9.8 is released.
 
 ### To Do
 
@@ -31,11 +31,11 @@ to use it several sites I manage once WordPress 4.9.8 is released.
 ready to get WordPress 4.9.8 out the door :-)
 
 * add multisite support
-    * For example, it would probably be a good idea to allow site admins to have all of the existing functionality for all sites in a network and but allow them to override those settings on a site-by-site basis 
+    * For example, it would probably be a good idea to allow site admins to specifty all of the existing functionality for all sites in a network and but allow them to override those settings on a site-by-site basis 
 * add unit tests
     * and do more extensive "manual" testing
 * consider releasing through the w.org repo
-    * once the above items are taken care of
+    * once the above items are taken care of, of course
     
 ## Settings
 
@@ -75,7 +75,7 @@ Installation of this plugin works like any other plugin out there:
 1. Upload the contents of the zip file to the '/wp-content/plugins/' directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
-Alternatively, if you use the [Guthub Updater Plugin](https://github.com/afragen/github-updater) you can
+Alternatively, if you have the [Guthub Updater Plugin](https://github.com/afragen/github-updater) you can
 use that to install (and update) this plugin.
 
 ## Changelog
