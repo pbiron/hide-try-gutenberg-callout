@@ -119,7 +119,7 @@ class SHC_Hide_Try_Gutenberg_Callout
 		if ( current_user_can( 'manage_options' ) ) {
 			$settings_link = sprintf(
 				'<a href="%s">%s</a>',
-				admin_url( 'options-writing.php#classic-editor-options' ),
+				admin_url( 'options-writing.php#hide-try-gutenberg-callout-options' ),
 				__( 'Settings', 'hide-try-gutenberg-callout' )
 			);
 			array_unshift( $actions, $settings_link );
@@ -195,6 +195,7 @@ class SHC_Hide_Try_Gutenberg_Callout
 	 */
 	function settings_section() {
  ?>
+ 	<a name='hide-try-gutenberg-callout-options'></a>
 	<p>
 		<?php _e( 'These settings allow you to control when the "Try Gutenberg" callout is hidden.', 'hide-try-gutenberg-callout ') ?>
 	</p>
